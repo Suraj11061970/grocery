@@ -14,4 +14,4 @@ jobs:
         server: 13.92.57.191
         username: azureadmin
         password: ${{ secrets.ftp_password }}
-        server-dir: /var/www/html
+        server-dir: /var/www/html/
