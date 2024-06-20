@@ -11,7 +11,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
-        server: 13.92.194.175
-        username: azureadmin
+        server: 172.173.131.63
+        username: ftpuser
         password: ${{ secrets.ftp_password }}
         server-dir: /var/www/html/
